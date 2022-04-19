@@ -1,4 +1,4 @@
-import { Box, Grid, Heading, useBreakpointValue, useColorMode } from '@chakra-ui/react';
+import { Box, Grid, Heading, Text, useBreakpointValue, useColorMode } from '@chakra-ui/react';
 
 const SomeText = () => {
 	const { colorMode } = useColorMode();
@@ -23,7 +23,8 @@ const SomeText = () => {
 				borderRadius={4}
 			>
 				<Box fontSize={boxFontSize}>
-					This is a Next.js app with Chakra-UI and TypeScript setup.
+					<Text>This is a Next.js app with Chakra-UI and TypeScript setup.</Text>
+					<Text>This is a Next.js app with Chakra-UI and TypeScript setup.</Text>
 				</Box>
 			</Box>
 		</Grid>

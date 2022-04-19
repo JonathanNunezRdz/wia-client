@@ -11,8 +11,13 @@ const Header = () => {
 					<Link>wia</Link>
 				</NextLink>
 			</Heading>
-
 			<Box marginLeft='auto'>
+				<NextLink href='media' passHref>
+					<Link mr='1rem'>medias</Link>
+				</NextLink>
+				<NextLink href='media' passHref>
+					<Link mr='1rem'>waifus</Link>
+				</NextLink>
 				<ThemeToggle />
 			</Box>
 		</Flex>
